@@ -40,6 +40,17 @@ const Admin1 = () => {
                   <div>
                     <a
                       style={{ textDecoration: "none", color: "black" }}
+                      href="/supadmin"
+                    >
+                     Sup-admin
+                    </a>
+                  </div>
+                </li>
+                <br />
+                <li>
+                  <div>
+                    <a
+                      style={{ textDecoration: "none", color: "black" }}
                       href="/usersbiblo"
                     >
                       Bibliothéque
@@ -51,7 +62,7 @@ const Admin1 = () => {
                   <div>
                     <a
                       style={{ textDecoration: "none", color: "black" }}
-                      href="/"
+                      href="/usersquiz"
                     >
                       Quiz
                     </a>

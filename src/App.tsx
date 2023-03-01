@@ -19,6 +19,7 @@ import Forma from "./components/pages/Forma";
 import Admin1 from "./components/admin/Admin1";
 import UsersBiblo from "./components/admin/UsersBiblo";
 import UsersQuiz from "./components/admin/UsersQuiz";
+import SupAdmin from "./components/admin/SupAdmin";
 
 interface I18n {
   en: Record<string, string>;
@@ -59,6 +60,7 @@ function App() {
           <Route path="/admin1" element={<Admin1 />} />
           <Route path="/usersbiblo" element={<UsersBiblo />} />
           <Route path="/usersquiz" element={<UsersQuiz />} />
+          <Route path="/supadmin" element={<SupAdmin />} />
         </Routes>
       </div>
       <div>

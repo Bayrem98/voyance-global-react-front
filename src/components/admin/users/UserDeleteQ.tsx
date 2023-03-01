@@ -3,19 +3,19 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button, Modal, ModalBody, ModalFooter, ModalHeader } from "reactstrap";
 import { FormattedMessage } from "react-intl";
-import User from "../../@Types/User";
-import { deleteUsers } from "../../action/Users/action";
+import { deleteUsers1 } from "../../../action/Users/actionQ";
+import User1 from "../../../@Types/User1";
 
 interface UserDeletePropsType {
-  user: User;
+  user: User1;
   refresh: () => void;
 }
 
 const UserDelete = ({ user, refresh }: UserDeletePropsType) => {
   const [isOpened, setIsOpened] = useState<boolean>(false);
 
-  const submit = () => {
-    deleteUsers(user, () => {
+  const submit1 = () => {
+    deleteUsers1(user, () => {
       refresh();
       setIsOpened(false);
     });
@@ -47,7 +47,7 @@ const UserDelete = ({ user, refresh }: UserDeletePropsType) => {
           <FormattedMessage id="users.delete.dialog.text" /> {user.username} ?
         </ModalBody>
         <ModalFooter>
-          <Button color="danger" onClick={submit}>
+          <Button color="danger" onClick={submit1}>
             <FormattedMessage id="button.confirm" />
           </Button>{" "}
           <Button onClick={() => setIsOpened(false)}>

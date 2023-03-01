@@ -16,7 +16,7 @@ export function getUserss(callback: (data: User[]) => void) {
     });
 }
 
-export function addUser(user: User, callback: () => void) {
+export function addUserA(user: User, callback: () => void) {
   axios
     .post("http://localhost:8000/user", user)
     .then(() => {

@@ -17,7 +17,8 @@ import { faEye } from "@fortawesome/free-solid-svg-icons";
 import User from "../@Types/User";
 import { getUsers } from "../action/Users/action";
 import { getUserss } from "../action/Users/actionA";
-import UserAdd from "./users/UserAdd";
+import { getUsersss } from "../action/Users/actionQ";
+import Inscription from "./admin/users/Inscription";
 
 interface NavbardInterfaceProps {
   lang: Function;
@@ -36,10 +37,16 @@ export default function Navbar(props: NavbardInterfaceProps) {
     getUserss(setUsers); // aka setUsers(data)
   }, []);
 
+  useEffect(() => {
+    getUsersss(setUsers); // aka setUsers(data)
+  }, []);
+
   const navigate = useNavigate();
 
   const [open, setOpen] = useState<boolean>(false);
   const [isOpened, setIsOpened] = useState<boolean>(false);
+  const [isOpenedd, setIsOpenedd] = useState<boolean>(false);
+
   const [username, setUsername] = useState<string>("");
   const [password, setPassword] = useState<string>("");
   const [passwordShown, setPasswordShown] = useState(false);
@@ -59,14 +66,16 @@ export default function Navbar(props: NavbardInterfaceProps) {
 
   const handelClose1 = () => setIsOpened(false);
 
+  const handelClose2 = () => setIsOpenedd(false);
+
   const handleLogin = (e: any) => {
     e.preventDefault();
     axios
       .post("http://localhost:8000/auth/login", { username, password })
       .then(({ data }) => {
         localStorage.setItem("access_token", data.access_token);
-        window.location.reload();
         handelClose();
+        window.location.reload();
         console.log(data);
       })
       .catch((e) => {
@@ -83,7 +92,7 @@ export default function Navbar(props: NavbardInterfaceProps) {
   const handleLoginb = (e: any) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5000/auth/login", { username, password })
+      .post("http://localhost:5001/auth/login", { username, password })
       .then(({ data }) => {
         localStorage.setItem("access_token1", data.access_token);
         handelClose();
@@ -105,6 +114,25 @@ export default function Navbar(props: NavbardInterfaceProps) {
     setPasswordShown(passwordShown ? false : true);
   };
 
+  const handleLoginq = (e: any) => {
+    e.preventDefault();
+    axios
+      .post("http://localhost:9000/auth/login", { username, password })
+      .then(({ data }) => {
+        localStorage.setItem("access_token2", data.access_token);
+        handelClose();
+        navigatetoo();
+        console.log(data);
+      })
+      .catch((e) => {
+        console.log(e.response.data.message);
+      });
+  };
+
+  const navigatetoo = () => {
+    window.location.replace("http://localhost:3002/");
+  };
+
   return (
     <div>
       <nav
@@ -117,7 +145,7 @@ export default function Navbar(props: NavbardInterfaceProps) {
             <img src="/home-img/logo-title.png" alt=".." />
           </a>
           <div>
-            <UserAdd refresh={() => getUsers(setUsers)} />
+            <Inscription refresh={() => getUsers(setUsers)} />
 
             {localStorage.getItem("access_token") ? (
               <span className="button-con">
@@ -350,6 +378,105 @@ export default function Navbar(props: NavbardInterfaceProps) {
         <></>
       )}
 
+      {isOpenedd ? (
+        <Modal
+          centered
+          scrollable
+          isOpen={isOpenedd}
+          toggle={() => setIsOpenedd(!isOpenedd)}
+        >
+          <Form onSubmit={(e) => handleLoginq(e)}>
+            <ModalBody toggle={() => setIsOpenedd(!isOpenedd)}>
+              <p
+                style={{
+                  color: "#b79e56",
+                  textAlign: "center",
+                  textDecoration: "underline",
+                  fontSize: 25,
+                }}
+              >
+                CONNECTER-VOUS AU QUIZ
+              </p>
+              <span
+                onClick={handelClose2}
+                style={{
+                  position: "absolute",
+                  right: 10,
+                  top: 2,
+                  cursor: "pointer",
+                  color: "gray",
+                  fontSize: 20,
+                }}
+              >
+                X
+              </span>
+              <br />
+              <FormGroup floating>
+                <Input
+                  value={username}
+                  id="username"
+                  name="username"
+                  type="text"
+                  onChange={changeUsername}
+                />
+                <Label for="username">
+                  <FormattedMessage id="user.username" />
+                </Label>
+              </FormGroup>
+              <FormGroup floating>
+                <Input
+                  value={password}
+                  id="password"
+                  name="password"
+                  type={passwordShown ? "text" : "password"}
+                  onChange={changePassword}
+                />
+                <i
+                  style={{
+                    color: "#b79e56",
+                    position: "absolute",
+                    top: 18,
+                    right: 16,
+                    height: 20,
+                    width: 20,
+                    cursor: "pointer",
+                  }}
+                  onClick={togglePasswordVisiblity}
+                >
+                  {eye}
+                </i>
+                <Label for="password">
+                  <FormattedMessage id="user.password" />
+                </Label>
+              </FormGroup>
+            </ModalBody>
+            <ModalFooter>
+              <Button
+                style={{
+                  backgroundColor: "#b79e56",
+                  border: 0,
+                }}
+                type="submit"
+                disabled={!username || !password}
+              >
+                <FormattedMessage id="button.confirm" />
+              </Button>
+              <Button
+                style={{
+                  backgroundColor: "lightgray",
+                  border: 0,
+                }}
+                onClick={() => setIsOpenedd(false)}
+              >
+                <FormattedMessage id="button.cancel" />
+              </Button>
+            </ModalFooter>
+          </Form>
+        </Modal>
+      ) : (
+        <></>
+      )}
+
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <div
@@ -382,7 +509,12 @@ export default function Navbar(props: NavbardInterfaceProps) {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a
+                  style={{ cursor: "pointer" }}
+                  className="nav-link active"
+                  aria-current="page"
+                  onClick={() => setIsOpenedd(true)}
+                >
                   QUIZ
                 </a>
               </li>

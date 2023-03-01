@@ -12,13 +12,13 @@ import {
   ModalFooter,
 } from "reactstrap";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
-import { addUser } from "../../action/Users/action";
+import { addUser1 } from "../../../action/Users/actionQ";
 
 interface UserAddPropsType {
   refresh: () => void;
 }
 
-const UserAdd = (props: UserAddPropsType) => {
+const UserAddQuiz = (props: UserAddPropsType) => {
   const [isOpened, setIsOpened] = useState<boolean>(false); // form state for modal.
 
   // form states
@@ -30,7 +30,7 @@ const UserAdd = (props: UserAddPropsType) => {
       username,
       password,
     };
-    addUser(newUser, () => {
+    addUser1(newUser, () => {
       props.refresh();
       setIsOpened(false);
       reset();
@@ -161,4 +161,4 @@ const UserAdd = (props: UserAddPropsType) => {
   );
 };
 
-export default UserAdd;
+export default UserAddQuiz;

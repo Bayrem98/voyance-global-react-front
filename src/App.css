@@ -254,4 +254,11 @@
     background-size: contain;
   }
 
+  .vertical-line{
+    border-left: 2px solid #b79e56;
+    display: inline-block;
+    height: 50px;
+    margin: 0 80px;
+  }
+
 }

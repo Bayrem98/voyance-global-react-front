@@ -4,17 +4,18 @@ import { useEffect, useState } from "react";
 import { FormattedMessage } from "react-intl";
 import { useNavigate } from "react-router-dom";
 import { ButtonGroup, Container, Table } from "reactstrap";
-import User from "../../@Types/User";
-import { getUsers } from "../../action/Users/action";
-import UserDelete from "../users/UserDelete";
+import User1 from "../../@Types/User1";
+import { getUsersss } from "../../action/Users/actionQ";
+import UserDelete from "./users/UserDeleteQ";
+import UserEdit from "./users/UserEditQ";
 
 const UsersQuiz = () => {
   const navigate = useNavigate();
 
-  const [users, setUsers] = useState<User[]>([]);
+  const [users, setUsersss] = useState<User1[]>([]);
 
   useEffect(() => {
-    getUsers(setUsers); // aka setUsers(data)
+    getUsersss(setUsersss); // aka setUsers(data)
   }, []);
   return (
     <>
@@ -51,6 +52,17 @@ const UsersQuiz = () => {
               ></hr>
               <ul>
                 <div style={{ color: "#06989b" }}>Tous les utilisateurs :</div>
+                <br />
+                <li>
+                  <div>
+                    <a
+                      style={{ textDecoration: "none", color: "black" }}
+                      href="/supadmin"
+                    >
+                      Sup-admin
+                    </a>
+                  </div>
+                </li>
                 <br />
                 <li>
                   <div>
@@ -102,6 +114,9 @@ const UsersQuiz = () => {
                     <th>
                       <FormattedMessage id="user.username" />
                     </th>
+                    <th style={{ textAlign: "center" }}>
+                      <FormattedMessage id="user.roles" />
+                    </th>
                     <th
                       style={{
                         textAlign: "center",
@@ -123,11 +138,16 @@ const UsersQuiz = () => {
                         >
                           {user.username}
                         </td>
+                        <td style={{ textAlign: "center" }}>{user.roles}</td>
                         <td style={{ textAlign: "center" }}>
                           <ButtonGroup>
+                            <UserEdit
+                              user={user}
+                              refresh={() => getUsersss(setUsersss)}
+                            />
                             <UserDelete
                               user={user}
-                              refresh={() => getUsers(setUsers)}
+                              refresh={() => getUsersss(setUsersss)}
                             />
                           </ButtonGroup>
                         </td>

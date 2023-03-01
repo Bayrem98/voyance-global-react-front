@@ -5,16 +5,16 @@ import { FormattedMessage } from "react-intl";
 import { useNavigate } from "react-router-dom";
 import { ButtonGroup, Container, Table } from "reactstrap";
 import User from "../../@Types/User";
-import { getUsers } from "../../action/Users/action";
+import { getUserss } from "../../action/Users/actionA";
 import UserDelete from "./users/UserDeleteB";
 
-const UsersBiblo = () => {
+const SupAdmin = () => {
   const navigate = useNavigate();
 
-  const [users, setUsers] = useState<User[]>([]);
+  const [users, setUserss] = useState<User[]>([]);
 
   useEffect(() => {
-    getUsers(setUsers); // aka setUsers(data)
+    getUserss(setUserss); // aka setUsers(data)
   }, []);
   return (
     <>
@@ -54,10 +54,7 @@ const UsersBiblo = () => {
                 <br />
                 <li>
                   <div>
-                    <a
-                      style={{ textDecoration: "none", color: "black" }}
-                      href="/supadmin"
-                    >
+                    <a style={{ textDecoration: "none", color: "#b79e56" }}>
                       Sup-admin
                     </a>
                   </div>
@@ -65,7 +62,10 @@ const UsersBiblo = () => {
                 <br />
                 <li>
                   <div>
-                    <a style={{ textDecoration: "none", color: "#b79e56" }}>
+                    <a
+                      style={{ textDecoration: "none", color: "black" }}
+                      href="/usersbiblo"
+                    >
                       Bibliothéque
                     </a>
                   </div>
@@ -138,7 +138,7 @@ const UsersBiblo = () => {
                           <ButtonGroup>
                             <UserDelete
                               user={user}
-                              refresh={() => getUsers(setUsers)}
+                              refresh={() => getUserss(setUserss)}
                             />
                           </ButtonGroup>
                         </td>
@@ -167,4 +167,4 @@ const UsersBiblo = () => {
   );
 };
 
-export default UsersBiblo;
+export default SupAdmin;
