@@ -82,30 +82,23 @@ const Biblo = () => {
             onClick={() => navigate(-1)}
             style={{ cursor: "pointer" }}
           />
+          <br />
+          <br />
           <p>
-            L'astrologie est désormais considérée comme une pseudoscience
-            relevant du charlatanisme1[source insuffisante],2,3[source
-            insuffisante],4, une croyance indûment présentée comme scientifique,
-            ou comme une superstition5[source insuffisante]. L'astrologie se
-            place, par sa méthode même, en dehors du domaine rationnel ou
-            scientifique6. Pour l'Association française pour l'information
-            scientifique (AFIS) : « Sur un plan scientifique, la validité de
-            l’astrologie a été largement mise à l'épreuve et est définitivement
-            rejetée. Pour autant, toutes les nombreuses expériences déjà
-            réalisées, tout comme celles à venir, ne suffiront pas à convaincre
-            les astrologues ou ceux qui croient en leurs prédictions. Là où les
-            scientifiques s'intéressent aux faits, les astrologues évaluent la
-            satisfaction de leurs clients (et pour les plus cyniques, leur
-            chiffre d'affaires et la fréquentation de leur cabinet). »4. De
-            nombreux travaux scientifiques ont rigoureusement démonté l'ensemble
-            des croyances associées à l'astrologie. Ainsi, sur la relation entre
-            personnalité des individus et date de naissance, une étude, basée
-            sur deux échantillons de respectivement 4 000 et 15 000 personnes,
-            publiée en 2006 et menée par Peter Hartmann du département de
-            psychologie de l'Université d'Aarhus, conclut : « cette étude de
-            grande échelle ne fournit aucun fait permettant de soutenir
-            l'existence de relation entre la date de naissance et des
-            différences dans la personnalité et l'intelligence générale »7.
+            "Notre bibliothèque est composée de quatre catégories distinctes
+            pour répondre à vos différents besoins de lecture. La première
+            catégorie, "Supports Divinatoires", regroupe des ouvrages sur la
+            voyance, la divination et les pratiques ésotériques. La deuxième
+            catégorie, "Formation Initiale", vous propose des livres pour vous
+            initier à de nouveaux domaines de connaissance, que ce soit en
+            voyance, en culture général ou en astrologie. La troisième
+            catégorie, "Psychologie Humaine", vous offre des ouvrages sur la
+            compréhension de l'être humain, sur la santé mentale, la
+            communication, la gestion du stress et de l'anxiété. Enfin, la
+            catégorie "Divers" vous permet de découvrir des ouvrages variés,
+            tels que des romans, des biographies, des livres de buddhisme, etc.
+            Nous sommes convaincus que vous trouverez dans notre bibliothèque de
+            quoi satisfaire votre soif de savoir et de découverte."
           </p>
         </div>
       </section>

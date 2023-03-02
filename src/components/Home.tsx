@@ -169,6 +169,28 @@ const Home = () => {
           ></hr>
         </div>
       </section>
+      <section style={{paddingBottom: 20}}>
+        <Carousel controls={false} indicators={false}>
+          <Carousel.Item interval={3000}>
+            <img className="slider" src="/home-img/img-sun.jpg" alt="." />
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item interval={3000}>
+            <img className="slider" src="/home-img/img-tarot2.jpg" alt="." />
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item interval={3000}>
+            <img className="slider" src="/home-img/img-tarot3.jpg" alt="." />
+
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item interval={3000}>
+            <img className="slider" src="/home-img/img-tarot4.jpg" alt="." />
+
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </section>
     </div>
   );
 };

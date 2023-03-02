@@ -3,6 +3,10 @@ import { Card, CardBody, CardHeader } from "reactstrap";
 const Actualite = () => {
   return (
     <>
+      <section style={{ paddingTop: 10 }}>
+        <img src="/home-img/img-tarot.jpg" alt="" height={500} width={1263} />
+      </section>
+      <hr style={{ border: "solid", color: "#217575" }}></hr>
       <section
         style={{
           textAlign: "center",
@@ -447,7 +451,7 @@ const Actualite = () => {
                 style={{
                   position: "absolute",
                   right: 22,
-                  top: 5032,
+                  top: 5580,
                   width: 612,
                   height: 487,
                 }}

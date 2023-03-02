@@ -11,7 +11,7 @@ const Pquiz = () => {
               <img
                 style={{ paddingBottom: 10, paddingTop: 20 }}
                 className="bib-img"
-                src="/biblo-img/v-anglais.png"
+                src="/quiz-img/quiz-cap 1.png"
                 alt=".."
               />
             </div>
@@ -19,7 +19,7 @@ const Pquiz = () => {
               <img
                 style={{ paddingBottom: 10, paddingTop: 20 }}
                 className="bib-img"
-                src="/biblo-img/onebook-anglais.png"
+                src="/quiz-img/quiz-cap 2.png"
                 alt=".."
               />
             </div>
@@ -27,7 +27,7 @@ const Pquiz = () => {
               <img
                 style={{ paddingBottom: 10, paddingTop: 20 }}
                 className="bib-img"
-                src="/biblo-img/book-anglais.png"
+                src="/quiz-img/quiz-cap 3.png"
                 alt=".."
               />
             </div>
@@ -38,7 +38,7 @@ const Pquiz = () => {
               <div className="col">
                 <img
                   className="bib-img"
-                  src="/biblo-img/v-francais.png"
+                  src="/quiz-img/quiz-cap 4.png"
                   alt=".."
                 />
               </div>
@@ -46,7 +46,7 @@ const Pquiz = () => {
                 <img
                   style={{ paddingLeft: 8 }}
                   className="bib-img"
-                  src="/biblo-img/onebook-francais.png"
+                  src="/quiz-img/quiz-cap 5.png"
                   alt=".."
                 />
               </div>
@@ -54,7 +54,7 @@ const Pquiz = () => {
                 <img
                   style={{ paddingLeft: 12 }}
                   className="bib-img"
-                  src="/biblo-img/book-francais.png"
+                  src="/quiz-img/quiz-cap 6.png"
                   alt=".."
                 />
               </div>
@@ -82,30 +82,25 @@ const Pquiz = () => {
             onClick={() => navigate(-1)}
             style={{ cursor: "pointer" }}
           />
+          <br />
+          <br />
           <p>
-            L'astrologie est désormais considérée comme une pseudoscience
-            relevant du charlatanisme1[source insuffisante],2,3[source
-            insuffisante],4, une croyance indûment présentée comme scientifique,
-            ou comme une superstition5[source insuffisante]. L'astrologie se
-            place, par sa méthode même, en dehors du domaine rationnel ou
-            scientifique6. Pour l'Association française pour l'information
-            scientifique (AFIS) : « Sur un plan scientifique, la validité de
-            l’astrologie a été largement mise à l'épreuve et est définitivement
-            rejetée. Pour autant, toutes les nombreuses expériences déjà
-            réalisées, tout comme celles à venir, ne suffiront pas à convaincre
-            les astrologues ou ceux qui croient en leurs prédictions. Là où les
-            scientifiques s'intéressent aux faits, les astrologues évaluent la
-            satisfaction de leurs clients (et pour les plus cyniques, leur
-            chiffre d'affaires et la fréquentation de leur cabinet). »4. De
-            nombreux travaux scientifiques ont rigoureusement démonté l'ensemble
-            des croyances associées à l'astrologie. Ainsi, sur la relation entre
-            personnalité des individus et date de naissance, une étude, basée
-            sur deux échantillons de respectivement 4 000 et 15 000 personnes,
-            publiée en 2006 et menée par Peter Hartmann du département de
-            psychologie de l'Université d'Aarhus, conclut : « cette étude de
-            grande échelle ne fournit aucun fait permettant de soutenir
-            l'existence de relation entre la date de naissance et des
-            différences dans la personnalité et l'intelligence générale »7.
+            "Notre application de quiz est conçue pour les amateurs de culture
+            ésotérique et de culture générale. Elle est composée de quatre
+            catégories distinctes de questions pour tester vos connaissances et
+            votre intuition. La première catégorie, "Astrologie", vous propose
+            des questions sur les signes du zodiaque, les planètes, les maisons
+            astrologiques, les transits, etc. La deuxième catégorie,
+            "Numérologie", vous invite à découvrir les secrets des nombres, des
+            cycles de vie, des nombres de destinée, des nombres karmiques, etc.
+            La troisième catégorie, "Tarologie", vous offre des questions sur
+            les arcanes majeurs et mineurs du tarot, les différentes méthodes de
+            tirage, les significations symboliques, etc. Enfin, la catégorie
+            "Culture Générale" vous permet de tester vos connaissances sur
+            divers sujets tels que l'histoire, la géographie, la littérature,
+            les sciences, etc. Nous sommes convaincus que vous apprécierez cette
+            application ludique et instructive qui vous permettra de vous
+            divertir tout en enrichissant votre culture personnelle."
           </p>
         </div>
       </section>
