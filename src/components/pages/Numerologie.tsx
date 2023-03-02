@@ -29,6 +29,8 @@ const Numerologie = () => {
           onClick={() => navigate(-1)}
           style={{ cursor: "pointer" }}
         />
+        <br />
+        <br />
         <p>
           L'une des origines de la numérologie serait la guématria, une
           technique herméneutique fondée sur la numération hébraïque. Une autre

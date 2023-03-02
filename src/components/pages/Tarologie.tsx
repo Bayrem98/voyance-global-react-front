@@ -29,6 +29,8 @@ const Tarologie = () => {
           onClick={() => navigate(-1)}
           style={{ cursor: "pointer" }}
         />
+        <br />
+        <br />
         <p>
           Le tarot divinatoire est un art divinatoire qui utilise les cartes du
           tarot de Marseille ou sous d'autre forme comme le tarot des anges ou

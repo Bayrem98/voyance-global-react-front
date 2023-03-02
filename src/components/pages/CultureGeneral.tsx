@@ -29,6 +29,8 @@ const CultureGeneral = () => {
           onClick={() => navigate(-1)}
           style={{ cursor: "pointer" }}
         />
+        <br />
+        <br />
         <p>
           La culture générale n'est pas une discipline académique, comme peuvent
           l'être l'histoire-géographie ou la physique. La culture générale

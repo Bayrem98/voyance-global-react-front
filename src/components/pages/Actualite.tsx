@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import { Card, CardBody, CardHeader } from "reactstrap";
 
 const Actualite = () => {
@@ -20,7 +21,7 @@ const Actualite = () => {
             color: "#b79e56",
           }}
         >
-          L'ÉNERGIE DE LA LUNE
+          <FormattedMessage id="actu.title" />
         </p>
         <div className="container">
           <div className="row">

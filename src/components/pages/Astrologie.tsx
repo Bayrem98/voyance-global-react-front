@@ -32,6 +32,8 @@ const Astrologie = () => {
           onClick={() => navigate(-1)}
           style={{ cursor: "pointer" }}
         />
+        <br />
+        <br />
         <p>
           L'astrologie est désormais considérée comme une pseudoscience relevant
           du charlatanisme1[source insuffisante],2,3[source insuffisante],4, une

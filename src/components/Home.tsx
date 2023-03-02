@@ -183,12 +183,12 @@ const Home = () => {
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img className="slider" src="/home-img/img-tarot3.jpg" alt="." />
+            <img className="slider" src="/home-img/taro-sing-im.jpg" alt="." />
 
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img className="slider" src="/home-img/img-tarot4.jpg" alt="." />
+            <img className="slider" src="/home-img/img-tarot3.jpg" alt="." />
 
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
