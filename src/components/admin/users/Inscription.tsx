@@ -88,7 +88,7 @@ const Inscription = (props: UserAddPropsType) => {
         }}
         onClick={() => setIsOpened(true)}
       >
-        INSCRIPTION
+        <FormattedMessage id="navbar.button.ins" />
       </button>
 
       <Modal
@@ -107,7 +107,7 @@ const Inscription = (props: UserAddPropsType) => {
                 fontSize: 25,
               }}
             >
-              INSCRIVEZ-VOUS
+              <FormattedMessage id="title.modal.ins" />
             </p>
             <span
               onClick={() => setIsOpened(false)}
@@ -131,7 +131,7 @@ const Inscription = (props: UserAddPropsType) => {
                 border: 0,
                 borderRadius: 10,
                 backgroundColor: "#217575",
-                fontSize: 20,
+                fontSize: 18,
                 width: 150,
               }}
               onClick={() => {
@@ -139,7 +139,7 @@ const Inscription = (props: UserAddPropsType) => {
                 closeModal();
               }}
             >
-              BIBLIOTHEQUE
+              <FormattedMessage id="card5.page.home" />
             </Button>
             <span className="vertical-line"></span>
             <Button
@@ -149,7 +149,7 @@ const Inscription = (props: UserAddPropsType) => {
                 border: 0,
                 borderRadius: 10,
                 backgroundColor: "#217575",
-                fontSize: 20,
+                fontSize: 18,
                 width: 150,
               }}
               onClick={() => {
@@ -157,7 +157,7 @@ const Inscription = (props: UserAddPropsType) => {
                 closeModal();
               }}
             >
-              QUIZ
+              <FormattedMessage id="card6.page.home" />
             </Button>
           </ModalBody>
         </Form>
@@ -179,7 +179,7 @@ const Inscription = (props: UserAddPropsType) => {
                 fontSize: 25,
               }}
             >
-              INSCRIVEZ-VOUS A LA BIBLIOTHEQUE
+              <FormattedMessage id="title.modal.ins.biblo" />
             </p>
             <span
               onClick={() => setIsOpenedd(false)}
@@ -274,7 +274,7 @@ const Inscription = (props: UserAddPropsType) => {
                 fontSize: 25,
               }}
             >
-              INSCRIVEZ-VOUS AU QUIZ
+              <FormattedMessage id="title.modal.ins.quiz" />
             </p>
             <span
               onClick={() => setIsOpeneddd(false)}

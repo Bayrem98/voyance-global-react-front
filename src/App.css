@@ -55,6 +55,11 @@
       }
 
       .footer1 {
+        padding-left: 550px;
+        padding-top: 20px;
+      }
+
+      .footer2 {
         padding-left: 600px;
       }
       
@@ -190,6 +195,11 @@
   }
 
   .footer1 {
+    padding-left: 445px;
+    padding-top: 20px;
+  }
+
+  .footer2 {
     padding-left: 490px;
   }
 

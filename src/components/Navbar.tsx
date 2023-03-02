@@ -495,7 +495,7 @@ export default function Navbar(props: NavbardInterfaceProps) {
                   aria-current="page"
                   href="/actualite"
                 >
-                  ACTUALITE
+                  <FormattedMessage id="navbar1" />
                 </a>
               </li>
               <li className="nav-item">
@@ -505,7 +505,7 @@ export default function Navbar(props: NavbardInterfaceProps) {
                   aria-current="page"
                   onClick={() => setIsOpened(true)}
                 >
-                  BIBLIOTHEQUE
+                  <FormattedMessage id="card5.page.home" />
                 </a>
               </li>
               <li className="nav-item">
@@ -515,7 +515,7 @@ export default function Navbar(props: NavbardInterfaceProps) {
                   aria-current="page"
                   onClick={() => setIsOpenedd(true)}
                 >
-                  QUIZ
+                  <FormattedMessage id="card6.page.home" />
                 </a>
               </li>
               <li className="nav-item">
@@ -524,7 +524,7 @@ export default function Navbar(props: NavbardInterfaceProps) {
                   aria-current="page"
                   href="/formation"
                 >
-                  FORMATION
+                  <FormattedMessage id="card7.page.home" />
                 </a>
               </li>
               <li className="nav-item">
@@ -533,7 +533,7 @@ export default function Navbar(props: NavbardInterfaceProps) {
                   aria-current="page"
                   href="http://www.tunis0.telemaque.fr/"
                 >
-                  WIKI-COSMOSPEACE
+                  <FormattedMessage id="card8.page.home" />
                 </a>
               </li>
               {localStorage.getItem("access_token") ? (
@@ -544,7 +544,7 @@ export default function Navbar(props: NavbardInterfaceProps) {
                       aria-current="page"
                       href="/admin1"
                     >
-                      ADMIN
+                      <FormattedMessage id="navbar2" />
                     </a>
                   </li>
                 </>

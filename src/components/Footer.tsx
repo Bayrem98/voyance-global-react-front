@@ -1,3 +1,5 @@
+import { FormattedMessage } from "react-intl";
+
 const Footer = () => {
   return (
     <>
@@ -7,11 +9,11 @@ const Footer = () => {
           style={{ backgroundColor: "#217575" }}
         >
           <p className="footer1" style={{ color: "white" }}>
-            On a beaucoup d'activité dans notre site web
+            <FormattedMessage id="footer1" />
           </p>
           <hr className="footer-l" style={{ color: "#b79e56" }}></hr>
-          <p className="footer1" style={{ color: "white" }}>
-            © 2023 Voyance-Global - Tous droits réservés.
+          <p className="footer2" style={{ color: "white" }}>
+            <FormattedMessage id="footer2" />
           </p>
         </span>
       </section>

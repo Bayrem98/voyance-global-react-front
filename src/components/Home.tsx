@@ -1,4 +1,5 @@
 import { Carousel } from "react-bootstrap";
+import { FormattedMessage } from "react-intl";
 import { Link } from "react-router-dom";
 import { Card, CardHeader, CardBody, CardImg } from "reactstrap";
 const Home = () => {
@@ -31,7 +32,7 @@ const Home = () => {
         <div className="container">
           <div className="row" style={{ textAlign: "center" }}>
             <p className="theme" style={{ color: "#b79e56" }}>
-              TOUS NOS THEMES
+              <FormattedMessage id="title1.page.home" />
             </p>
             <hr style={{ border: "solid", color: "#217575" }}></hr>
             <div className="col">
@@ -41,7 +42,7 @@ const Home = () => {
               >
                 <Card className="my-2" color="success" outline>
                   <CardHeader style={{ color: "#217575" }}>
-                    ASTROLOGIE
+                    <FormattedMessage id="card1.page.home" />
                   </CardHeader>
                   <CardBody>
                     <CardImg src="/home-img/card-astro.jpg" />
@@ -56,7 +57,7 @@ const Home = () => {
               >
                 <Card className="my-2" color="success" outline>
                   <CardHeader style={{ color: "#217575" }}>
-                    NUMEROLOGIE
+                    <FormattedMessage id="card2.page.home" />
                   </CardHeader>
                   <CardBody>
                     <CardImg src="/home-img/card-numé.jpg" />
@@ -71,7 +72,7 @@ const Home = () => {
               >
                 <Card className="my-2" color="success" outline>
                   <CardHeader style={{ color: "#217575" }}>
-                    TAROLOGIE
+                    <FormattedMessage id="card3.page.home" />
                   </CardHeader>
                   <CardBody>
                     <CardImg src="/home-img/card-taro.jpg" />
@@ -85,7 +86,9 @@ const Home = () => {
                 style={{ textDecoration: "none", color: "black" }}
               >
                 <Card className="my-2" color="success" outline>
-                  <CardHeader style={{ color: "#217575" }}>CULTURE</CardHeader>
+                  <CardHeader style={{ color: "#217575" }}>
+                    <FormattedMessage id="card4.page.home" />
+                  </CardHeader>
                   <CardBody>
                     <CardImg
                       className="img-cul"
@@ -104,7 +107,7 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <p className="activi" style={{ color: "#217575" }}>
-              TOUS NOS ACTIVITE
+              <FormattedMessage id="title2.page.home" />
             </p>
             <hr
               style={{ borderStyle: "solid", color: "#b79e56", borderWidth: 3 }}
@@ -113,7 +116,7 @@ const Home = () => {
               <Link to="/biblo" style={{ textDecoration: "none" }}>
                 <Card className="my-2" outline>
                   <CardHeader style={{ color: "#b79e56", fontSize: 20 }}>
-                    BIBLIOTHEQUE
+                    <FormattedMessage id="card5.page.home" />
                   </CardHeader>
                   <CardBody>
                     <CardImg src="/home-img/biblo-img.jpg" />
@@ -125,7 +128,7 @@ const Home = () => {
               <Link to="/pquiz" style={{ textDecoration: "none" }}>
                 <Card className="my-2" outline>
                   <CardHeader style={{ color: "#b79e56", fontSize: 20 }}>
-                    QUIZ
+                    <FormattedMessage id="card6.page.home" />
                   </CardHeader>
                   <CardBody>
                     <CardImg src="/home-img/quiz-img.jpg" />
@@ -137,7 +140,7 @@ const Home = () => {
               <Link to="/forma" style={{ textDecoration: "none" }}>
                 <Card className="my-2" outline>
                   <CardHeader style={{ color: "#b79e56", fontSize: 20 }}>
-                    FORMATION
+                    <FormattedMessage id="card7.page.home" />
                   </CardHeader>
                   <CardBody>
                     <CardImg src="/img-theme/successful-deal.jpg" />
@@ -152,7 +155,7 @@ const Home = () => {
               >
                 <Card className="my-2" outline>
                   <CardHeader style={{ color: "#b79e56", fontSize: 20 }}>
-                    WIKI-COSMO
+                    <FormattedMessage id="card8.page.home" />
                   </CardHeader>
                   <CardBody>
                     <CardImg
@@ -169,7 +172,7 @@ const Home = () => {
           ></hr>
         </div>
       </section>
-      <section style={{paddingBottom: 20}}>
+      <section style={{ paddingBottom: 20 }}>
         <Carousel controls={false} indicators={false}>
           <Carousel.Item interval={3000}>
             <img className="slider" src="/home-img/img-sun.jpg" alt="." />
