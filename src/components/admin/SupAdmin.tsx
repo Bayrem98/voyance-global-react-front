@@ -101,7 +101,7 @@ const SupAdmin = () => {
                   fontSize: 25,
                 }}
               >
-                Les utilisateurs de bibliothéque
+                Super-Admin
               </p>
               <Table bordered responsive hover>
                 <thead

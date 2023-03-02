@@ -42,7 +42,7 @@ const Admin1 = () => {
                       style={{ textDecoration: "none", color: "black" }}
                       href="/supadmin"
                     >
-                     Sup-admin
+                      Sup-admin
                     </a>
                   </div>
                 </li>
