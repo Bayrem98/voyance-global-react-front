@@ -508,7 +508,7 @@ const Formation = () => {
             height={586}
           />
           <Card style={{ width: "50rem" }}>
-            <CardBody>
+            <CardBody className="first-letter">
               Le référentiel de naissance en voyance est un outil utilisé par
               les voyants pour aider à comprendre la personnalité et les traits
               de caractère d'une personne en se basant sur les informations
@@ -553,7 +553,7 @@ const Formation = () => {
         <br />
         <div style={{ paddingLeft: 50 }}>
           <Card style={{ width: "40rem" }}>
-            <CardBody>
+            <CardBody className="first-letter">
               Tout comme nous utilisons un miroir pour ordonner notre image
               physique, le Référentiel est un miroir qui nous permet d’ordonner
               notre image intérieure souvent malmenée par nos différentes
@@ -658,7 +658,7 @@ const Formation = () => {
             height={690}
           />
           <Card style={{ width: "50rem" }}>
-            <CardBody>
+            <CardBody className="first-letter">
               La chiromancie est une forme de divination qui utilise la lecture
               de la main pour prédire l'avenir et connaître la personnalité
               d'une personne. Les chiromanciens croient que les lignes, les

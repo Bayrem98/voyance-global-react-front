@@ -85,7 +85,7 @@ const Pquiz = () => {
           <br />
           <br />
           <p>
-            "Notre application de quiz est conçue pour les amateurs de culture
+            Notre application de quiz est conçue pour les amateurs de culture
             ésotérique et de culture générale. Elle est composée de quatre
             catégories distinctes de questions pour tester vos connaissances et
             votre intuition. La première catégorie, "Astrologie", vous propose
@@ -100,7 +100,7 @@ const Pquiz = () => {
             divers sujets tels que l'histoire, la géographie, la littérature,
             les sciences, etc. Nous sommes convaincus que vous apprécierez cette
             application ludique et instructive qui vous permettra de vous
-            divertir tout en enrichissant votre culture personnelle."
+            divertir tout en enrichissant votre culture personnelle.
           </p>
         </div>
       </section>

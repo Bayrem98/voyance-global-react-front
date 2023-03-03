@@ -32,60 +32,41 @@ const CultureGeneral = () => {
         <br />
         <br />
         <p>
-          La culture générale n'est pas une discipline académique, comme peuvent
-          l'être l'histoire-géographie ou la physique. La culture générale
-          regroupe plusieurs disciplines à partir d'un esprit commun, qui est
-          celui du dialogue entre les connaissances. Elle représente
-          l'indispensable moteur permettant une réflexion autonome. En tant que
-          dialogue, elle ne peut être une simple compilation de connaissances.
-          Elle ne vise pas une érudition ou un savoir universel. La culture
-          générale n'est pas non plus une connaissance mondaine, qui serait
-          innée pour les uns ou étrangère aux autres.La culture générale est une
-          propédeutique à une connaissance plus spécialisée. Le Prix Nobel de
-          Médecine de 1965 François Jacob écrit ainsi que l'utilité de l'école
-          est de nourrir les esprits de culture générale pour leur permettre de
-          penser. Il déclare que « Ce qui importe, à l'école, c'est moins
-          d'acquérir en vrac le plus de connaissances possible que d'apprendre à
-          apprendre. La gymnastique intellectuelle qu'implique la vie moderne
-          exige de se familiariser aussi bien avec la littérature et l'histoire
-          qu'avec les mathématiques et la biologie ». Le monde étant fait d'une
-          complexe interconnectivité et s'étant spécialisé, la culture générale
-          permet de penser le global de manière complexe. Devant l'impossibilité
-          de se spécialiser en tout, la culture générale permet de disposer des
-          outils pour saisir les tenants et les aboutissants de problèmes
-          spécialisés.La question de la culture générale émaille plusieurs
-          textes issus de l'Antiquité. Les sophistes grecs, professeurs
-          itinérants, délivraient un savoir général et étaient connus pour avoir
-          des connaissances en toute chose. Cette approche du savoir est
-          critiquée par Platon, notamment à la fin de l’Euthydème, qui promeut
-          la spécialisation. Le philosophe reconnaît néanmoins que
-          l'apprentissage de culture générale est ainsi un moment nécessaire du
-          projet philosophique en ce qu'elle permet d'acquérir des connaissances
-          sans lesquelles la raison tournerait à vide. La notion parvient aux
-          romains par l'étude des textes grecs. Le philosophe Cicéron définit
-          l’humanitas comme « le traitement à appliquer aux enfants pour qu’ils
-          deviennent hommes » dans De oratore. La culture générale est donc un
-          outil nécessaire de l'éducation. Dans les Tusculanes, le philosophe
-          forge l'expression de « culture de l'âme ».L’idéal de culture s’est
-          transmis jusqu’à aujourd’hui, s’incarnant dans des modèles scolaires
-          distincts. Cet idéal était discuté et abondé par différents penseurs
-          au cours des siècles. René Descartes fait de la culture générale un
-          pivot de sa pensée. Selon la première règle pour la direction de
-          l'esprit, « Le but des études doit être de diriger l’esprit de manière
-          à ce qu’il porte des jugements solides et vrais sur tout ce qui se
-          présente à lui ». La culture générale ne se définit donc pas par son
-          objet, mais par sa visée : celle d'un support pour bien juger des
-          choses. Emmanuel Kant poursuit dans son sens. Il oppose la nature
-          (règne des causes déterminées par des lois empiriques) à la culture,
-          cette dernière étant le règne de la liberté. La culture est par
-          conséquent la marque de l’aptitude des hommes à se donner librement
-          des fins qui lui plaisent, en général. La culture générale ne peut
-          donc pas être réduite à contenu déterminé, puisqu'elle vise
-          précisément à donner à l'homme la possibilité de choisir les fins qui
-          déterminent son existence. Si les humanistes se sont concentrés sur la
-          vertu de l'homme humaniste, le philosophe allemand George Friedrich
-          Hegel critique le projet d'une culture qui ne viserait que
-          l’épanouissement de l'individu subjectif.
+          La culture générale peut être définie comme un ensemble de
+          connaissances sur divers sujets tels que l'histoire, la géographie,
+          les sciences, la littérature, les arts, la musique, la politique, la
+          philosophie, la religion et d'autres domaines importants de la vie
+          humaine. Elle peut être considérée comme une connaissance de base
+          nécessaire pour comprendre et interagir avec le monde qui nous
+          entoure. La culture générale peut être acquise à travers l'éducation
+          formelle et informelle, telle que les études scolaires, les lectures,
+          les voyages, les discussions, les expériences et les interactions
+          sociales. Elle est souvent considérée comme importante pour le
+          développement personnel, la communication efficace, la prise de
+          décision et la compréhension de la société et de ses valeurs. Avoir
+          une culture générale étendue peut également être utile pour les
+          praticiens de la voyance, car cela leur permet d'avoir une
+          compréhension plus profonde des contextes historiques et culturels qui
+          peuvent être pertinents pour interpréter les événements et les
+          situations. Cela peut également aider à établir des connexions plus
+          significatives avec les clients et à fournir des conseils éclairés et
+          pertinents.La culture générale peut également être considérée comme un
+          moyen de comprendre les différentes perspectives et les valeurs des
+          autres cultures. Elle peut aider à favoriser la tolérance et
+          l'empathie envers les personnes de cultures différentes de la nôtre.
+          En outre, la culture générale est souvent considérée comme importante
+          dans le monde professionnel, car elle peut aider les individus à être
+          plus efficaces dans leur travail et à mieux comprendre les besoins et
+          les attentes de leurs clients. Par exemple, les connaissances en
+          histoire et en culture peuvent être utiles pour les travailleurs
+          sociaux qui travaillent avec des communautés ethniques diverses ou
+          pour les avocats qui traitent des affaires internationales. En somme,
+          la culture générale peut être considérée comme une base importante
+          pour le développement personnel et professionnel, ainsi que pour
+          l'interprétation des événements et des situations dans la voyance.
+          Elle peut également être bénéfique pour la compréhension et
+          l'appréciation des différentes cultures et perspectives dans notre
+          monde globalisé.
         </p>
       </div>
     </>

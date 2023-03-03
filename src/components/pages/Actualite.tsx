@@ -52,7 +52,7 @@ const Actualite = () => {
                 Comment la lune influence-t-elle notre corps?
               </p>
               <Card outline>
-                <CardBody>
+                <CardBody className="first-letter">
                   La lune est depuis des siècles considérée comme une force de
                   la nature et fascine toutes les cultures à travers le monde. À
                   la fois responsable des marées océaniques et de la stabilité
@@ -92,7 +92,7 @@ const Actualite = () => {
               </p>
               <div style={{ paddingTop: 42 }}>
                 <Card outline>
-                  <CardBody>
+                  <CardBody className="first-letter">
                     Dans les temps anciens, la lune était considérée comme une
                     énergie mystique sur laquelle les populations avaient très
                     peu de connaissances. C’est pour cette raison que les mythes
@@ -143,7 +143,7 @@ const Actualite = () => {
                   Les significations spirituelles des cycles lunaires
                 </p>
                 <Card outline>
-                  <CardBody>
+                  <CardBody className="first-letter">
                     Les cycles lunaires désignent les portions illuminées de la
                     lune par le Soleil, vues à partir de la Terre. Les phases
                     lunaires changent durant la lunaison qui dure environ 29
@@ -174,7 +174,7 @@ const Actualite = () => {
                 </p>
                 <div style={{ paddingTop: 42 }}>
                   <Card outline>
-                    <CardBody>
+                    <CardBody className="first-letter">
                       La phase de la lune croissante contient quatre cycles : la
                       nouvelle lune, le premier croissant, le premier quartier
                       et la gibeuse ascendante. Pendant la phase croissante de
@@ -234,7 +234,7 @@ const Actualite = () => {
                 </p>
                 <div style={{ paddingTop: 42 }}>
                   <Card outline>
-                    <CardBody>
+                    <CardBody className="first-letter">
                       La phase de la lune décroissante contient également quatre
                       cycles et après la pleine lune, la lune est dans sa phase
                       descendante : la gibeuse descendante, le dernier quartier,
@@ -270,7 +270,7 @@ const Actualite = () => {
                   La pleine lune et ses significations spirituelles
                 </p>
                 <Card outline>
-                  <CardBody>
+                  <CardBody className="first-letter">
                     La pleine lune marque le milieu du cycle lunaire, c’est à
                     cet instant précis qu’elle est entièrement éclairée par le
                     Soleil. C’est pour cette raison que pendant la pleine lune,
@@ -452,7 +452,7 @@ const Actualite = () => {
                 style={{
                   position: "absolute",
                   right: 22,
-                  top: 5580,
+                  top: 5616,
                   width: 612,
                   height: 487,
                 }}

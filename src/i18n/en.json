@@ -134,5 +134,10 @@
   "navbar2": "ADMIN",
   "footer2": "© 2023 Voyance-Global - All rights reserved.",
   "footer1": "Explore the mysteries of the future with our clairvoyance app.",
-  "actu.title": "THE ENERGY OF THE MOON"
+  "actu.title": "THE ENERGY OF THE MOON",
+  "user.roles": "Roles",
+  "role.formatrice": "Trainer",
+  "role.formateur": "Trainer",
+  "role.voyants": "Seers",
+  "role.admin": "Administrator"
 }

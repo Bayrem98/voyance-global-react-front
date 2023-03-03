@@ -44,7 +44,7 @@ const Forma = () => {
           <br />
           <br />
           <p>
-            "Notre espace de formation est conçu pour les professionnels et les
+            Notre espace de formation est conçu pour les professionnels et les
             amateurs de l'ésotérisme qui souhaitent approfondir leurs
             connaissances et développer leurs compétences dans le domaine de la
             voyance et des pratiques divinatoires. Dans cet espace, nous
@@ -66,7 +66,7 @@ const Forma = () => {
             de formation vous permettra d'acquérir des connaissances solides et
             des compétences pratiques dans le domaine de la voyance et des
             pratiques divinatoires, pour vous permettre de pratiquer en toute
-            sécurité et en toute responsabilité."
+            sécurité et en toute responsabilité.
           </p>
         </div>
       </section>
