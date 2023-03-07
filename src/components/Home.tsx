@@ -6,6 +6,24 @@ const Home = () => {
   return (
     <div style={{ backgroundColor: "#f9f9f9" }}>
       <section>
+        <div>
+          <Card
+            style={{
+              color: "#b79e56",
+              backgroundColor: "#f9f9f9",
+              textAlign: "center",
+              fontSize: 30,
+              border: 0,
+            }}
+          >
+            <CardBody>
+              POUR UTILISER LA BIBLIOTHEQUE ET LE QUIZ IL FAUT D'ABORD
+              INSCRIVEZ-VOUS.!!
+            </CardBody>
+          </Card>
+        </div>
+      </section>
+      <section>
         <Carousel controls={false} indicators={false}>
           <Carousel.Item interval={3000}>
             <img className="slider" src="/home-img/home-slider-1.png" alt="." />

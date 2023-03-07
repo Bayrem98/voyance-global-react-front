@@ -1,22 +1,141 @@
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Forma = () => {
   const navigate = useNavigate();
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded1, setIsExpanded1] = useState(false);
+  const [isExpanded2, setIsExpanded2] = useState(false);
+
+  const handleClick = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  const handleClick1 = () => {
+    setIsExpanded1(!isExpanded1);
+  };
+
+  const handleClick2 = () => {
+    setIsExpanded2(!isExpanded2);
+  };
+
   return (
     <>
       <section>
-        <div className="container-fluid" style={{paddingTop: 30}}>
+        <div className="container-fluid" style={{ paddingTop: 30 }}>
           <div className="row">
             <div className="col">
               {" "}
-              <img src="/form-img/form-cap-1.png" alt=".." height={300} width={390} />
+              <img
+                style={{ cursor: "pointer" }}
+                src="/form-img/form-cap-1.png"
+                alt=".."
+                height={300}
+                width={390}
+                onClick={handleClick}
+              />
+              {isExpanded && (
+                <div
+                  style={{
+                    position: "fixed",
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    backgroundColor: "rgba(0, 0, 0, 0.7)",
+                    zIndex: 9999,
+                  }}
+                  onClick={handleClick}
+                >
+                  <img
+                    src="/form-img/form-cap-1.png"
+                    style={{
+                      maxWidth: "80%",
+                      maxHeight: "80%",
+                      objectFit: "contain",
+                    }}
+                    alt=""
+                  />
+                </div>
+              )}
             </div>
             <div className="col">
-              <img src="/form-img/form-cap-2.png" alt=".." height={300} width={390} />
+              <img
+                style={{ cursor: "pointer" }}
+                src="/form-img/form-cap-2.png"
+                alt=".."
+                height={300}
+                width={390}
+                onClick={handleClick1}
+              />
+              {isExpanded1 && (
+                <div
+                  style={{
+                    position: "fixed",
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    backgroundColor: "rgba(0, 0, 0, 0.7)",
+                    zIndex: 9999,
+                  }}
+                  onClick={handleClick1}
+                >
+                  <img
+                    src="/form-img/form-cap-2.png"
+                    style={{
+                      maxWidth: "80%",
+                      maxHeight: "80%",
+                      objectFit: "contain",
+                    }}
+                    alt=""
+                  />
+                </div>
+              )}
             </div>
             <div className="col">
               {" "}
-              <img src="/form-img/form-cap-3.png" alt=".." height={300} width={390} />
+              <img
+                style={{ cursor: "pointer" }}
+                src="/form-img/form-cap-3.png"
+                alt=".."
+                height={300}
+                width={390}
+                onClick={handleClick2}
+              />
+              {isExpanded2 && (
+                <div
+                  style={{
+                    position: "fixed",
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    backgroundColor: "rgba(0, 0, 0, 0.7)",
+                    zIndex: 9999,
+                  }}
+                  onClick={handleClick2}
+                >
+                  <img
+                    src="/form-img/form-cap-3.png"
+                    style={{
+                      maxWidth: "80%",
+                      maxHeight: "80%",
+                      objectFit: "contain",
+                    }}
+                    alt=""
+                  />
+                </div>
+              )}
             </div>
           </div>
         </div>

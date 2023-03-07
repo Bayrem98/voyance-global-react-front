@@ -145,6 +145,18 @@
         font-size: 1.5em;
         color: rgb(33, 117, 117);
       }
+
+      .float-end {
+        position: absolute;
+        right: 32px;
+        top: 5256px;
+        width: 730px;
+        height: 409px;
+      }
+
+      .card-float {
+        width: 46rem;
+      }
 }
 
 
@@ -286,6 +298,18 @@
   .first-letter::first-letter {
     font-size: 1.5em;
     color: rgb(33, 117, 117);
+  }
+
+  .float-end {
+    position: absolute;
+    right: 22px;
+    top: 5616px;
+    width: 612px;
+    height: 487px;
+  }
+
+  .card-float {
+    width: 38rem;
   }
 
 }

@@ -17,6 +17,7 @@ const UsersQuiz = () => {
   useEffect(() => {
     getUsersss(setUsersss); // aka setUsers(data)
   }, []);
+
   return (
     <>
       <div
@@ -114,6 +115,9 @@ const UsersQuiz = () => {
                     <th>
                       <FormattedMessage id="user.username" />
                     </th>
+                    <th>
+                      <FormattedMessage id="user.password" />
+                    </th>
                     <th style={{ textAlign: "center" }}>
                       <FormattedMessage id="user.roles" />
                     </th>
@@ -138,6 +142,14 @@ const UsersQuiz = () => {
                         >
                           {user.username}
                         </td>
+                        <td
+                          style={{
+                            color: "#0e0e0ee7",
+                            fontSize: 18,
+                          }}
+                        >
+                          {user.password}
+                        </td>
                         <td style={{ textAlign: "center" }}>{user.roles}</td>
                         <td style={{ textAlign: "center" }}>
                           <ButtonGroup>
@@ -156,7 +168,7 @@ const UsersQuiz = () => {
                   ) : (
                     <tr>
                       <td
-                        colSpan={2}
+                        colSpan={4}
                         className="text-center p-5"
                         style={{ color: "#0e0e0ee7" }}
                       >

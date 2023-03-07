@@ -386,7 +386,7 @@ const Actualite = () => {
               className="col"
               style={{ paddingTop: 20, paddingBottom: 40, paddingLeft: 22 }}
             >
-              <Card style={{ width: "38rem" }}>
+              <Card className="card-float">
                 <CardHeader
                   style={{
                     backgroundColor: "#c61017",
@@ -449,13 +449,6 @@ const Actualite = () => {
                 src="/actualite-img/astr-chin-img-3.jpg"
                 alt=""
                 className="float-end"
-                style={{
-                  position: "absolute",
-                  right: 22,
-                  top: 5616,
-                  width: 612,
-                  height: 487,
-                }}
               />
               <br />
               <div
