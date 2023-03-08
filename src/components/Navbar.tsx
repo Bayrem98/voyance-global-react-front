@@ -531,7 +531,7 @@ export default function Navbar(props: NavbardInterfaceProps) {
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  href="http://www.tunis0.telemaque.fr/"
+                  href="http://tunis0.telemaque.fr/mediawiki/index.php/Accueil"
                 >
                   <FormattedMessage id="card8.page.home" />
                 </a>

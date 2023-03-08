@@ -168,7 +168,7 @@ const Home = () => {
             </div>
             <div className="col" style={{ textAlign: "center" }}>
               <Link
-                to="http://www.tunis0.telemaque.fr/"
+                to="http://tunis0.telemaque.fr/mediawiki/index.php/Accueil"
                 style={{ textDecoration: "none" }}
               >
                 <Card className="my-2" outline>

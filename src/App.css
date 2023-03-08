@@ -75,8 +75,8 @@
       }
 
       .img-actu {
-        width: 1200px;
-        height: 450px;
+        width: 1515px;
+        height: 400px;
       }
 
       .table1 {
@@ -149,7 +149,7 @@
       .float-end {
         position: absolute;
         right: 32px;
-        top: 5256px;
+        top: 5056px;
         width: 730px;
         height: 409px;
       }
@@ -157,6 +157,48 @@
       .card-float {
         width: 46rem;
       }
+
+      .card-down-float {
+        width: 62rem;
+        position: sticky;
+        left: 260px;
+      }
+
+      .actu-img-1 {
+        height: 400px;
+        width: 1515px;
+      }
+
+      .img-sig-astro {
+        width: 472px;
+        height: 45px;
+      }
+
+      .form-met-card {
+        width: 30rem;
+        right: -99px;
+        background-color: #f9f9f9;
+      }
+
+      .rounded.float-start {
+        width: 597px;
+        height: 597px;
+      }
+
+      .form-ref-img {
+        position: absolute;
+        right: 0px;
+        top: 4420px;
+        width: 750px;
+        height: 600px;
+      }
+
+      .form-chir-img {
+        width: 200px;
+        height: 500px;
+      }
+
+
 }
 
 
@@ -310,6 +352,41 @@
 
   .card-float {
     width: 38rem;
+  }
+
+  .card-down-float {
+    width: 62rem;
+    position: sticky;
+    left: 60px;
+  }
+
+  .actu-img-1 {
+    height: 500px;
+    width: 1263px;
+  }
+
+  .img-sig-astro {
+    width: 387px;
+    height: 45px;
+  }
+
+  .form-met-card {
+    width: 30rem;
+    right: -45px;
+    background-color: #f9f9f9;
+  }
+
+  .rounded.float-start {
+    width: 350px;
+    height: 597px;
+  }
+
+  .form-ref-img {
+    position: absolute;
+    right: 0px;
+    top: 4520px;
+    width: 540px;
+    height: 570px;
   }
 
 }

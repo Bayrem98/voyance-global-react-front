@@ -110,11 +110,7 @@ const Formation = () => {
               </Card>
             </div>
             <div className="col">
-              <Card
-                color="success"
-                outline
-                style={{ width: "30rem", backgroundColor: "#f9f9f9" }}
-              >
+              <Card className="form-met-card" color="success" outline>
                 <CardHeader
                   style={{
                     textAlign: "center",
@@ -269,11 +265,7 @@ const Formation = () => {
               </Card>
             </div>
             <div className="col">
-              <Card
-                color="success"
-                outline
-                style={{ width: "30rem", backgroundColor: "#f9f9f9" }}
-              >
+              <Card className="form-met-card" color="success" outline>
                 <CardHeader
                   style={{
                     textAlign: "center",
@@ -420,11 +412,7 @@ const Formation = () => {
               </Card>
             </div>
             <div className="col" style={{ paddingTop: 20 }}>
-              <Card
-                color="success"
-                outline
-                style={{ width: "30rem", backgroundColor: "#f9f9f9" }}
-              >
+              <Card className="form-met-card" color="success" outline>
                 <CardHeader
                   style={{
                     textAlign: "center",
@@ -504,8 +492,6 @@ const Formation = () => {
             src="/img-theme/refe-img-3.png"
             className="rounded float-start"
             alt="..."
-            width={350}
-            height={586}
           />
           <Card style={{ width: "50rem" }}>
             <CardBody className="first-letter">
@@ -632,15 +618,9 @@ const Formation = () => {
             </CardBody>
           </Card>
           <img
+            className="form-ref-img"
             src="/img-theme/refe-img-2.png"
             alt="..."
-            style={{
-              position: "absolute",
-              right: 0,
-              top: 4520,
-              width: 540,
-              height: 570,
-            }}
           />
         </div>
       </section>
@@ -651,11 +631,9 @@ const Formation = () => {
         </p>
         <div style={{ paddingLeft: 50 }}>
           <img
-            src="/img-theme/chiro-img-1.jpg"
             className="rounded float-start"
+            src="/img-theme/chiro-img-1.jpg"
             alt="..."
-            width={390}
-            height={690}
           />
           <Card style={{ width: "50rem" }}>
             <CardBody className="first-letter">
@@ -733,7 +711,7 @@ const Formation = () => {
             <CardHeader
               style={{ textAlign: "center", color: "#217575", fontSize: 20 }}
             >
-              L'interprétation des 4 lignes principales de la main
+              L'interprétation des 4 lignes principales de la main  
             </CardHeader>
             <CardBody>
               <p style={{ color: "blue", fontSize: 20 }}>Ligne de VIE :</p>

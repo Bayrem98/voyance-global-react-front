@@ -19,7 +19,7 @@ const Numerologie = () => {
             textDecoration: "underline",
           }}
         >
-          NUMEROLOGIE
+          NUMÉROLOGIE
         </h1>
         <img
           src="/home-img/previous (2).png"

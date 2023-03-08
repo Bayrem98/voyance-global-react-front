@@ -5,7 +5,7 @@ const Actualite = () => {
   return (
     <>
       <section style={{ paddingTop: 10 }}>
-        <img src="/home-img/img-tarot.jpg" alt="" height={500} width={1263} />
+        <img className="actu-img-1" src="/home-img/img-tarot.jpg" alt="" />
       </section>
       <hr style={{ border: "solid", color: "#217575" }}></hr>
       <section
@@ -455,7 +455,7 @@ const Actualite = () => {
                 className="col"
                 style={{ textAlign: "center", paddingLeft: 110 }}
               >
-                <Card style={{ width: "62rem" }}>
+                <Card className="card-down-float" style={{ width: "62rem" }}>
                   <CardBody
                     style={{ color: "#b79e56", backgroundColor: "#c61017" }}
                   >
@@ -489,10 +489,9 @@ const Actualite = () => {
               <div className="col">
                 <Card>
                   <img
+                    className="img-sig-astro"
                     src="/actualite-img/lapin-img.png"
                     alt=""
-                    width={387}
-                    height={40}
                   />
                   <CardBody>
                     <ul>
@@ -535,10 +534,9 @@ const Actualite = () => {
               <div className="col">
                 <Card>
                   <img
+                    className="img-sig-astro"
                     src="/actualite-img/dragon-img.png"
                     alt=""
-                    width={387}
-                    height={40}
                   />
                   <CardBody>
                     <ul>
@@ -580,10 +578,9 @@ const Actualite = () => {
               <div className="col">
                 <Card>
                   <img
+                    className="img-sig-astro"
                     src="/actualite-img/serpent-img.png"
                     alt=""
-                    width={387}
-                    height={40}
                   />
                   <CardBody>
                     <ul>
@@ -629,10 +626,9 @@ const Actualite = () => {
               <div className="col">
                 <Card>
                   <img
+                    className="img-sig-astro"
                     src="/actualite-img/cheval-img.png"
                     alt=""
-                    width={387}
-                    height={40}
                   />
                   <CardBody>
                     <ul>
@@ -673,10 +669,9 @@ const Actualite = () => {
               <div className="col">
                 <Card>
                   <img
+                    className="img-sig-astro"
                     src="/actualite-img/chèvre-img.png"
                     alt=""
-                    width={387}
-                    height={40}
                   />
                   <CardBody>
                     <ul>
@@ -717,10 +712,9 @@ const Actualite = () => {
               <div className="col">
                 <Card>
                   <img
+                    className="img-sig-astro"
                     src="/actualite-img/singe-img.png"
                     alt=""
-                    width={387}
-                    height={40}
                   />
                   <CardBody>
                     <ul>
@@ -763,10 +757,9 @@ const Actualite = () => {
               <div className="col">
                 <Card>
                   <img
+                    className="img-sig-astro"
                     src="/actualite-img/coq-img.png"
                     alt=""
-                    width={387}
-                    height={40}
                   />
                   <CardBody>
                     <ul>
@@ -807,10 +800,9 @@ const Actualite = () => {
               <div className="col">
                 <Card>
                   <img
+                    className="img-sig-astro"
                     src="/actualite-img/chien-img.png"
                     alt=""
-                    width={387}
-                    height={40}
                   />
                   <CardBody>
                     <ul>
@@ -851,10 +843,9 @@ const Actualite = () => {
               <div className="col">
                 <Card>
                   <img
+                    className="img-sig-astro"
                     src="/actualite-img/cochon-img.png"
                     alt=""
-                    width={387}
-                    height={40}
                   />
                   <CardBody>
                     <ul>
@@ -898,10 +889,9 @@ const Actualite = () => {
               <div className="col">
                 <Card>
                   <img
+                    className="img-sig-astro"
                     src="/actualite-img/rat-img.png"
                     alt=""
-                    width={387}
-                    height={40}
                   />
                   <CardBody>
                     <ul>
@@ -942,10 +932,9 @@ const Actualite = () => {
               <div className="col">
                 <Card>
                   <img
+                    className="img-sig-astro"
                     src="/actualite-img/buffle-img.png"
                     alt=""
-                    width={387}
-                    height={40}
                   />
                   <CardBody>
                     <ul>
@@ -987,10 +976,9 @@ const Actualite = () => {
               <div className="col">
                 <Card>
                   <img
+                    className="img-sig-astro"
                     src="/actualite-img/tigre-img.png"
                     alt=""
-                    width={387}
-                    height={40}
                   />
                   <CardBody>
                     <ul>
