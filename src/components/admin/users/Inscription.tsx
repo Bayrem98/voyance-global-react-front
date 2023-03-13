@@ -98,7 +98,7 @@ const Inscription = (props: UserAddPropsType) => {
         toggle={() => setIsOpened(!isOpened)}
       >
         <Form>
-          <ModalBody toggle={() => setIsOpened(!isOpened)}>
+          <ModalBody>
             <p
               style={{
                 color: "#b79e56",
@@ -122,7 +122,6 @@ const Inscription = (props: UserAddPropsType) => {
             >
               X
             </span>
-            <br />
             <br />
             <Button
               outline
@@ -170,7 +169,7 @@ const Inscription = (props: UserAddPropsType) => {
         toggle={() => setIsOpenedd(!isOpenedd)}
       >
         <Form onSubmit={(e) => submit()}>
-          <ModalBody toggle={() => setIsOpenedd(!isOpenedd)}>
+          <ModalBody>
             <p
               style={{
                 color: "#217575",
@@ -265,7 +264,7 @@ const Inscription = (props: UserAddPropsType) => {
         toggle={() => setIsOpeneddd(!isOpeneddd)}
       >
         <Form onSubmit={(e) => submit1()}>
-          <ModalBody toggle={() => setIsOpeneddd(!isOpeneddd)}>
+          <ModalBody>
             <p
               style={{
                 color: "#217575",

@@ -113,9 +113,6 @@ const UsersBiblo = () => {
                     <th>
                       <FormattedMessage id="user.username" />
                     </th>
-                    <th>
-                      <FormattedMessage id="user.password" />
-                    </th>
                     <th
                       style={{
                         textAlign: "center",
@@ -136,14 +133,6 @@ const UsersBiblo = () => {
                           }}
                         >
                           {user.username}
-                        </td>
-                        <td
-                          style={{
-                            color: "#0e0e0ee7",
-                            fontSize: 18,
-                          }}
-                        >
-                          {user.password}
                         </td>
                         <td style={{ textAlign: "center" }}>
                           <ButtonGroup>

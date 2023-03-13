@@ -70,7 +70,7 @@ const UserEdit = ({ user, refresh }: UserEditPropsType) => {
             {" "}
             <FormattedMessage id="users.edit.dialog.title" />
           </p>
-          <Form inline>
+          <Form>
             <FormGroup floating>
               <Input
                 value={username}

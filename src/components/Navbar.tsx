@@ -188,7 +188,7 @@ export default function Navbar(props: NavbardInterfaceProps) {
       {open ? (
         <Modal centered scrollable isOpen={open} toggle={() => setOpen(false)}>
           <Form onSubmit={(e) => handleLogin(e)}>
-            <ModalBody toggle={() => setOpen(!open)}>
+            <ModalBody>
               <p
                 style={{
                   color: "#b79e56",
@@ -287,7 +287,7 @@ export default function Navbar(props: NavbardInterfaceProps) {
           toggle={() => setIsOpened(!isOpened)}
         >
           <Form onSubmit={(e) => handleLoginb(e)}>
-            <ModalBody toggle={() => setIsOpened(!isOpened)}>
+            <ModalBody>
               <p
                 style={{
                   color: "#b79e56",
@@ -386,7 +386,7 @@ export default function Navbar(props: NavbardInterfaceProps) {
           toggle={() => setIsOpenedd(!isOpenedd)}
         >
           <Form onSubmit={(e) => handleLoginq(e)}>
-            <ModalBody toggle={() => setIsOpenedd(!isOpenedd)}>
+            <ModalBody>
               <p
                 style={{
                   color: "#b79e56",
@@ -504,6 +504,7 @@ export default function Navbar(props: NavbardInterfaceProps) {
                   className="nav-link active"
                   aria-current="page"
                   onClick={() => setIsOpened(true)}
+                  href="#/"
                 >
                   <FormattedMessage id="card5.page.home" />
                 </a>
@@ -514,6 +515,7 @@ export default function Navbar(props: NavbardInterfaceProps) {
                   className="nav-link active"
                   aria-current="page"
                   onClick={() => setIsOpenedd(true)}
+                  href="#/"
                 >
                   <FormattedMessage id="card6.page.home" />
                 </a>
