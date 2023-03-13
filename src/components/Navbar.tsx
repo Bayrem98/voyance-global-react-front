@@ -147,6 +147,8 @@ export default function Navbar(props: NavbardInterfaceProps) {
           <div>
             <Inscription refresh={() => getUsers(setUsers)} />
 
+            <span className="vertical-line2"></span>
+
             {localStorage.getItem("access_token") ? (
               <span className="button-con">
                 <Link
@@ -161,24 +163,25 @@ export default function Navbar(props: NavbardInterfaceProps) {
                   <img
                     src="/home-img/logout-img.png"
                     alt=".."
-                    width={40}
-                    height={40}
+                    width={50}
+                    height={50}
                   />
                 </Link>
               </span>
             ) : (
               <span className="button-con">
-                <Link
-                  to=""
+                <Button
+                  className="button-insc"
+                  onClick={toggleModal}
                   style={{
-                    textDecoration: "none",
                     color: "white",
+                    borderBlockColor: "white",
+                    backgroundColor: "#b79e56",
                     font: "caption",
                   }}
-                  onClick={toggleModal}
                 >
-                  ADMIN-LOG
-                </Link>
+                  <FormattedMessage id="navbar.button.login" />
+                </Button>
               </span>
             )}
           </div>

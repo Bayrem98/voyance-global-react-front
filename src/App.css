@@ -141,6 +141,13 @@
         margin: 0 80px;
       }
 
+      .vertical-line2{
+        border-left: 2px solid #b79e56;
+        display: inline-block;
+        height: 18px;
+        margin: 1px 1px 1px 22px;
+      }
+
       .first-letter::first-letter {
         font-size: 1.5em;
         color: rgb(33, 117, 117);

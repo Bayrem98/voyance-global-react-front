@@ -84,6 +84,7 @@ const Inscription = (props: UserAddPropsType) => {
         style={{
           color: "#b79e56",
           borderBlockColor: "#b79e56",
+          backgroundColor: "white",
           font: "caption",
         }}
         onClick={() => setIsOpened(true)}
